@@ -3,10 +3,10 @@ import requests
 
 class GoToWebinarAPI(object):
 
-    host = "api.citrixonline.com"
+    host = "api.getgo.com"
     base_path = "/G2W/rest"
     protocol = "https"
-    authorize_url = "https://api.citrixonline.com/oauth/access_token"
+    authorize_url = "https://api.getgo.com/oauth/access_token"
 
     def __init__(self):
         self.access_token = ""
